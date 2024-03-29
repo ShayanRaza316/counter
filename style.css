@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.timer {
+    display: flex;
+}
+
+.time-section {
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.time-section span {
+    font-size: 36px;
+    display: block;
+}
+
+.label {
+    font-size: 12px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start, #reset {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop {
+    background-color: #f44336;
+    color: white;
+}
+
+#stop:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
